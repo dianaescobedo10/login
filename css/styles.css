@@ -1,0 +1,53 @@
+.container-fluid{
+    width: 100%;
+    margin-left: -13px;
+}
+
+.img{
+    background-image: url("../imagen/photo.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.btn{
+    color: white;
+    background-color: #6975D7;
+}
+
+.btn:hover{
+    color: white;
+    box-shadow: .2rem 0 .2rem #6975D7;
+}
+
+.span{
+    color: black;
+    /*text-align: right;*/
+    text-decoration: none;
+}
+
+
+i, .fa-facebook-f{
+    font-size: 22px;
+    width: 35px;
+    height: 35px;
+    color: white;
+    background: #42578C;
+    border: 1px solid  #42578C;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all ease 2s;
+}
+
+.fa-twitter{
+    color: white;
+    background: #51A0E8;
+    border: 1px solid  #51A0E8;
+}
+
+.fab{
+    line-height: 1.5;
+}
