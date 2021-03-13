@@ -3,61 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Login</title>
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid">
-            <div class="row">
+    
+        <div class="container-fluid w-100">
+            <div class="row align-items-stretch">
 
-                <div class="col-lg-9">
-                    <img class="center-block img" alt="" width="100%" height="100%">
-                </div>
+                <div class="col-lg-9 image"></div>
 
                 <div class="col-lg-3">
-                    <h1 class="text-center py-4">Login to continue</h1>
+                    <h2 class="text-center fw-bold py-5">Login to continue</h2>
                     
                         <form action="#">
-                            <div class="mb-1">
-                                <input type="email" placeholder="Email" class="form-control py-2" name="email">
+                            <div class="mb-2">
+                                <input type="email" placeholder="Email" class="form-control py-2.5" name="email">
                             </div>
 
                             <div class="mb-2">
-                                <input type="password" placeholder="Password" class="form-control py-2" name="password">
+                                <input type="password" placeholder="Password" class="form-control py-2.5" name="password">
                             </div>
 
-                            <div class="mb-2">
+                            <div class="mb-4 form-check">
                                 <input type="checkbox" name="connected" class="form-check-input">
                                 <label for="connected" class="form-check-label">Remember me</label>
-                                <span><a href="#" class="span text-end mx-3">Forgot password?</a></span>
+
+                                <div class="text-end mt-2">
+                                    <a href="#" class="span">Forgot password?</a>
+                                </div>
                             </div>
 
                             <div class="d-grid">
-                                <button type="submit" class="btn mt-4">LOGIN</button>
+                                <button type="submit" class="btn mt-2.5">LOGIN</button>
                             </div>
                         </form>
 
                         <div class="container w-100 my-5">
+
                             <div class="row text-center">
-                                <div class="col-12">Of sing up using</div>
+                                <div class="col-12">Or sing up using</div>
                             </div>
 
-                            <div class="row ">
-                                <div class="col text-center mt-3">
-                                    <i class="fab fa-facebook-f"></i>
-                                    <i class="fab fa-twitter"></i>
+                            <div class="row">
+                                <div class="col-6">
+                                    <button class="boton w-30 my-1 mx-5">
+                                        <div class="row align-items-center">
+                                            <div class="col">
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+
+                                <div class="col-6">
+                                    <button class="button-2 w-30 my-1 mx-5">
+                                        <div class="row align-items-center">
+                                            <div class="col">
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                            </div>
+                                        </div>
+                                    </button>
                                 </div>
                             </div>
-                            
+
                         </div>
+
                 </div>
 
             </div>
         </div>
-    </header>
+    
+<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://kit.fontawesome.com/c1a9b3509c.js" crossorigin="anonymous"></script>
 </body>
 </html>
