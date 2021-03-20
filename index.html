@@ -8,37 +8,31 @@
     <title>Login</title>
 </head>
 <body>
-        <div class="container-fluid">
-            <div class="row align-items-stretch">
-
-                <div class="col-xl-9 image"></div>
-
-                <div class="col-xl-3">
+    <div class="container-fluid">
+        <div class="row align-items-stretch">
+            <div class="col-xl-9 vh-100 image"></div>
+                <div class="col-xl-3 vh-100">
                     <h2 class="text-center fw-bold py-5">Login to continue</h2>
-                    
+
                         <form action="#" class="needs-validation" id="formulario">
                             <div class="form-group" id="group__email">
                                 <div class="mb-2">
                                     <input type="email" placeholder="Email" class="form-control py-2.5" name="email" id="email">
-                                    <div class="valid-feedback">Valid data.</div>
-                                    <div class="invalid-feedback">Mail required</div>
+                                    <div id="emailMensaje"></div>
                                 </div>
                             </div>
 
                             <div class="form-group" id="group__password">
                                 <div class="mb-2">
                                     <input type="password" placeholder="Password" class="form-control py-2.5" name="password" id="password">
-                                    <div class="valid-feedback">Valid data.</div>
-                                    <div class="invalid-feedback">Password required</div>
+                                    <div id="passwordMensaje"></div>
                                 </div>
                             </div>
 
                             <div class="mb-4 form-group form-check" id="group__remember">
-
                                 <label class="form-check-label">
                                     <input class="form-check-input" type="checkbox" name="remember" id="input">Remember me
-                                    <div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Check this checkbox to continue.</div>
+                                    <div id="checkMensaje"></div>
                                 </label>
 
                                 <div class="text-end mt-2">
@@ -52,7 +46,6 @@
                         </form>
 
                         <div class="container w-100 my-5">
-
                             <div class="row text-center">
                                 <div class="col-12">Or sing up using</div>
                             </div>
